@@ -1,0 +1,84 @@
+body{
+    background-image: url(./Assests/abstract-polygonal-background-with-blue-orange-and-yellow-colors-blue-orange-gradient-digital-polygons-a-network-grid-fusion-background-wallpaper-ai-generated-f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+  
+    padding: 5px 10px;
+}
+.container-fluid .navimg{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid red; */
+    /* margin-top: 0; */
+}
+ span{
+    font-family: sans-serif;
+    font-weight: bolder;
+
+}
+.nav-item{
+    margin-left: 100px;
+    margin-top: 70px;
+    text-align: end;
+    cursor: pointer;
+}
+
+.navbar-nav li, a{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item{
+    color: rgb(216, 26, 26);
+}
+
+.navbar-nav{
+    align-items: center;
+    margin-right: 20px;
+}
+
+.inputField{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container input{
+    width: 50%;
+    margin-top: 6px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-primary{
+    margin-left: 20px;
+    background-color: rgb(11, 125, 255);
+    border-radius: 10px;
+}
+
+.btn-danger{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.parent{
+    margin-top: 10px;
+    margin-left: 300px;
+    padding: 10px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text-center{
+    margin-top: 20px;
+}
+
+.collapse{
+    margin-left: 990px;
+}

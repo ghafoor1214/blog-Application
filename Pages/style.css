@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Assests/abstract-polygonal-background-with-blue-orange-and-yellow-colors-blue-orange-gradient-digital-polygons-a-network-grid-fusion-background-wallpaper-ai-generated-f.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBox {
+    width: 100%;
+    max-width: 470px;
+    background: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.formBox h1 {
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3fc2ff;
+    font-weight: 700;
+}
+
+.formBox h1::after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    color: #3fc2ff;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.inputGroup {
+    height: 250px;
+}
+
+.inputField {
+    display: flex;
+    background: #9dd8e7;
+    margin: 15px 0;
+    border-radius: 10px;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.inputField2{
+    margin-top: 50px;
+    display: flex;
+    background: #9fd5eb;
+    border-radius: 10px;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 18px 15px;
+}
+
+form p {
+    text-align: left;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+form p a {
+    text-decoration: none;
+    color: #3fc2ff;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
+
+.btnField {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btnField button {
+    flex-basis: 55%;
+    color:black;
+    background-color: #3fc2ff;
+    /* color: #fff; */
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-left: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.radio {
+    display: flex;
+    margin-top: 25px;
+}
+
+.label2 {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+input{
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#btnUpdate{
+    padding: 7px;
+    cursor: pointer;
+}
+
+#paraGender{
+    margin-left: 10px;
+}
+
+.in{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.nav{
+    background-color: rgb(69,133,244);
+    padding: 10px 20px;
+}
+
+#paraName, #paraEmail, #paraGender{
+    font-size: 25px;
+    font-weight: 800;
+    margin-right: 160px;
+}
+
+#btnUpdate{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(41, 40, 40);
+    font-weight: 600;
+}
+
+.nav a #paraHome{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
